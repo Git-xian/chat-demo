@@ -265,6 +265,16 @@
   }
 }
 
+.syncActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.syncActions > button {
+  flex: 1 1 auto;
+}
+
 .divider {
   flex-shrink: 0;
   width: 1px;
